@@ -66,5 +66,6 @@ class FormatTranslator:
             self.__file_an.write(self.__file_n.readline())
 
 
-FormatTranslator(sys.argv[1])
+if __name__ == "__main__":
+    FormatTranslator(sys.argv[1])
 
