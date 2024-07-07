@@ -298,10 +298,6 @@ class MenuWidget(QWidget):
             cursor.movePosition(QTextCursor.Start)
             self.parse_widget.aneu_file.setTextCursor(cursor)
 
-    @pyqtSlot()
-    def update_progress(self) -> None:
-        self.timer.stop()
-
 
 def main():
     myappid = u'mycompany.myproduct.subproduct.version'
