@@ -22,7 +22,7 @@ class FormatTranslator:
         #  the first line of the block, storing the number of lines
         #  with information (coordinates of nodes or node IDs of finite elements)
         count: str = bytes.decode(self.__file_neu.readline(), encoding="utf-8")
-        
+
         #  read the first line of the block with information
         #  about nodes or elements to determine the number of parameters
         first_line_parameters = bytes.decode(self.__file_neu.readline(), "utf-8")

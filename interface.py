@@ -299,7 +299,7 @@ class MenuWidget(QWidget):
             self.parse_widget.aneu_file.setTextCursor(cursor)
 
 
-def main():
+def main() -> None:
     myappid = u'mycompany.myproduct.subproduct.version'
     ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     app = QApplication([])
