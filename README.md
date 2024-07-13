@@ -9,7 +9,7 @@
     </strong>
 </pre>
 
-The start screen for selecting files <br />
+<span style="color: red">The start screen for selecting files</span> <br />
 ![main_display](https://github.com/user-attachments/assets/8fdcab6e-cd47-48c2-87d2-0b8d6a3f11bd) <br />
 
 The process of processing a file and uploading it for viewing <br />
