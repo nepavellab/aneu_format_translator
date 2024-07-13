@@ -2,7 +2,7 @@
     <strong>
       FILE CONVERTATION
       _________________
-file                     file
+  file                     file
 +------+                 +------+
 | .neu |       --->      |.aneu |
 +------+                 +------+
