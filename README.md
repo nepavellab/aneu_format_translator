@@ -23,24 +23,6 @@
 ### **Format mismatch error handling** <br />
 ![Снимок экрана (1210)](https://github.com/user-attachments/assets/0ee4feb4-5eb9-468f-9f82-a852dcf55fda) <br />
 
-### The home screen object is described by the class:
-```python
-class MenuWidget(QWidget):
-    # code
-```
-
-### The file display object is described by the class
-```python
-class ParseWidget(QWidget):
-    # code
-```
-
-### Both presented objects are placed in the main window described by the class
-```python
-class MainWindow(QWidget):
-    # code
-```
-
 ### Windows settings for displaying the application icon
 ```python
 myappid = u'mycompany.myproduct.subproduct.version'
